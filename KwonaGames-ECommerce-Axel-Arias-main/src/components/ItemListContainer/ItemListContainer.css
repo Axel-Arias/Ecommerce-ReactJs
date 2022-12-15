@@ -1,0 +1,40 @@
+.landingContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.landingContainer span{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.itemListContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+}
+
+.itemListLoading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+@media (max-width: 600px) {
+    .landingContainer{
+        display: none;
+    }
+
+    .itemListContainer {
+        margin-top: 40px;
+    }
+  }
